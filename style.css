@@ -1,0 +1,84 @@
+/*estilo do index.html*/
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* estilo do hover das páginas */
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: dimgray;
+}
+
+/* estilo do header*/
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(8, 23, 238, 0.356);
+}
+
+/* estilo da classe center*/
+.center {
+    text-align: center;
+}
+
+/* estilo do h1 e h2 */
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 17, 255) ;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+/* estilo dentro do footer */
+footer img{
+    text-align: center;
+    height: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* estilo da classe container */
+.container {
+    padding: 0px 50px;
+}
+
+/*estilo dos inputs da pagina contato */
+fieldset {
+    border: 0;
+}
+
+label {
+    margin-bottom: 0.2;
+    display: block;
+}
+
+input, select, textarea, button {
+    border-radius: 5px;
+    padding: 0.2em;
+    border: 1px solid;
+    
+}
